@@ -2,7 +2,7 @@
 
 source ./build
 
-SRC="src"
+SRC="cmd/${PROJ}"
 
 echo "Checking gofmt..."
 fmtRes=$(gofmt -s -l $SRC)
@@ -22,7 +22,8 @@ if [ -n "${vetRes}" ]; then
 	exit 255
 fi
 
-echo "Running tests..."
-go test -timeout 60s -cover $@ ${VET_TEST} --race
+echo "Running tests in ${VET_TEST} ..."
+go test -v -timeout 60s -cover $@ ${VET_TEST} --race
 
 echo "Success"
+
