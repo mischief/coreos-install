@@ -1,0 +1,38 @@
+{
+	"ImportPath": "github.com/coreos/coreos-install",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v60",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "golang.org/x/crypto/cast5",
+			"Rev": "cc04154d65fb9296747569b107cfd05380b1ea3e"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp",
+			"Rev": "cc04154d65fb9296747569b107cfd05380b1ea3e"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/armor",
+			"Rev": "cc04154d65fb9296747569b107cfd05380b1ea3e"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/elgamal",
+			"Rev": "cc04154d65fb9296747569b107cfd05380b1ea3e"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/errors",
+			"Rev": "cc04154d65fb9296747569b107cfd05380b1ea3e"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/packet",
+			"Rev": "cc04154d65fb9296747569b107cfd05380b1ea3e"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/s2k",
+			"Rev": "cc04154d65fb9296747569b107cfd05380b1ea3e"
+		}
+	]
+}
